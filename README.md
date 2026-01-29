@@ -75,6 +75,11 @@ For local testing, you'll need to expose your localhost to the internet using ng
 4. **Save the Webhook**
    - Click "Add webhook" button
    - GitHub will send a test ping to verify the endpoint
+   
+5. **Start ngrok in a new terminal**
+   ```bash
+   streamlit run ui.py
+   ```
 
 ## Step 4: Verify Webhook Setup
 
